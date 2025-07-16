@@ -12,3 +12,5 @@ challenge_dag.py.log
 airflow.db
 airflow-webserver.err
 *.pid
+*.err
+*.out

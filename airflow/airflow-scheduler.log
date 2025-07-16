@@ -1,0 +1,105 @@
+2025-07-16 11:06:23,881 INFO - Starting the scheduler
+2025-07-16 11:06:23,884 INFO - Processing each file at most -1 times
+2025-07-16 11:06:23,891 INFO - Launched DagFileProcessorManager with pid: 3989
+2025-07-16 11:06:23,897 INFO - Resetting orphaned tasks for active dag runs
+2025-07-16 11:06:23,901 INFO - Configured default timezone Timezone('UTC')
+2025-07-16 11:11:24,140 INFO - Resetting orphaned tasks for active dag runs
+2025-07-16 11:16:24,295 INFO - Resetting orphaned tasks for active dag runs
+2025-07-16 11:21:24,438 INFO - Resetting orphaned tasks for active dag runs
+2025-07-16 11:22:07,108 INFO - Exiting gracefully upon receiving signal 15
+2025-07-16 11:22:08,113 INFO - Sending Signals.SIGTERM to group 3989. PIDs of all processes in the group: [3989]
+2025-07-16 11:22:08,116 INFO - Sending the signal Signals.SIGTERM to group 3989
+2025-07-16 11:22:08,342 INFO - Process psutil.Process(pid=3989, status='terminated', exitcode=0, started='11:06:23') (3989) terminated with exit code 0
+2025-07-16 11:22:08,352 INFO - Sending Signals.SIGTERM to group 3989. PIDs of all processes in the group: []
+2025-07-16 11:22:08,355 INFO - Sending the signal Signals.SIGTERM to group 3989
+2025-07-16 11:22:08,358 INFO - Sending the signal Signals.SIGTERM to process 3989 as process group is missing.
+2025-07-16 11:22:08,358 INFO - Exited execute loop
+2025-07-16 11:22:40,593 INFO - Starting the scheduler
+2025-07-16 11:22:40,595 INFO - Processing each file at most -1 times
+2025-07-16 11:22:40,620 INFO - Launched DagFileProcessorManager with pid: 12640
+2025-07-16 11:22:40,622 INFO - Resetting orphaned tasks for active dag runs
+2025-07-16 11:22:40,627 INFO - Configured default timezone Timezone('UTC')
+2025-07-16 11:23:25,228 INFO - Exiting gracefully upon receiving signal 15
+2025-07-16 11:23:26,232 INFO - Sending Signals.SIGTERM to group 12640. PIDs of all processes in the group: [12640]
+2025-07-16 11:23:26,233 INFO - Sending the signal Signals.SIGTERM to group 12640
+2025-07-16 11:23:26,367 INFO - Process psutil.Process(pid=12640, status='terminated', exitcode=0, started='11:22:40') (12640) terminated with exit code 0
+2025-07-16 11:23:26,370 INFO - Sending Signals.SIGTERM to group 12640. PIDs of all processes in the group: []
+2025-07-16 11:23:26,370 INFO - Sending the signal Signals.SIGTERM to group 12640
+2025-07-16 11:23:26,371 INFO - Sending the signal Signals.SIGTERM to process 12640 as process group is missing.
+2025-07-16 11:23:26,371 INFO - Exited execute loop
+2025-07-16 11:23:32,010 INFO - Starting the scheduler
+2025-07-16 11:23:32,011 INFO - Processing each file at most -1 times
+2025-07-16 11:23:32,017 INFO - Launched DagFileProcessorManager with pid: 13126
+2025-07-16 11:23:32,021 INFO - Resetting orphaned tasks for active dag runs
+2025-07-16 11:23:32,023 INFO - Configured default timezone Timezone('UTC')
+2025-07-16 11:23:47,359 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,uk;q=0.8
+Cache-Control: max-age=0
+Referer: https://ideal-goldfish-6464w74jjgpf46x.github.dev/
+X-Request-Id: 482a79679d3eaf1655d1718db8765d8c
+X-Real-Ip: 217.18.177.133
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ideal-goldfish-6464w74jjgpf46x-8793.app.github.dev
+X-Forwarded-For: 217.18.177.133
+Proxy-Connection: Keep-Alive
+
+.
+2025-07-16 11:23:47,360 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-07-16 11:23:47,507 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,uk;q=0.8
+Referer: https://ideal-goldfish-6464w74jjgpf46x-8793.app.github.dev/
+X-Request-Id: 3450639b2461b3c2bf3be90103da84a8
+X-Real-Ip: 217.18.177.133
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ideal-goldfish-6464w74jjgpf46x-8793.app.github.dev
+X-Forwarded-For: 217.18.177.133
+Proxy-Connection: Keep-Alive
+
+.
+2025-07-16 11:23:47,508 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.

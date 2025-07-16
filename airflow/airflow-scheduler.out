@@ -1,0 +1,77 @@
+[[34m2025-07-16T11:23:32.010+0000[0m] {[34mscheduler_job_runner.py:[0m788} INFO[0m - Starting the scheduler[0m
+[[34m2025-07-16T11:23:32.011+0000[0m] {[34mscheduler_job_runner.py:[0m795} INFO[0m - Processing each file at most -1 times[0m
+[[34m2025-07-16T11:23:32.017+0000[0m] {[34mmanager.py:[0m165} INFO[0m - Launched DagFileProcessorManager with pid: 13126[0m
+[[34m2025-07-16T11:23:32.021+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2025-07-16T11:23:32.023+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2025-07-16T11:23:32.042+0000] {manager.py:411} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2025-07-16T11:23:47.359+0000[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,uk;q=0.8
+Cache-Control: max-age=0
+Referer: https://ideal-goldfish-6464w74jjgpf46x.github.dev/
+X-Request-Id: 482a79679d3eaf1655d1718db8765d8c
+X-Real-Ip: 217.18.177.133
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ideal-goldfish-6464w74jjgpf46x-8793.app.github.dev
+X-Forwarded-For: 217.18.177.133
+Proxy-Connection: Keep-Alive
+
+.[0m
+[[34m2025-07-16T11:23:47.360+0000[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2025-07-16T11:23:47.507+0000[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,uk;q=0.8
+Referer: https://ideal-goldfish-6464w74jjgpf46x-8793.app.github.dev/
+X-Request-Id: 3450639b2461b3c2bf3be90103da84a8
+X-Real-Ip: 217.18.177.133
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua-Platform: "Linux"
+Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: ideal-goldfish-6464w74jjgpf46x-8793.app.github.dev
+X-Forwarded-For: 217.18.177.133
+Proxy-Connection: Keep-Alive
+
+.[0m
+[[34m2025-07-16T11:23:47.508+0000[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m

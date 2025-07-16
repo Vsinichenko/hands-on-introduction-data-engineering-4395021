@@ -10,3 +10,5 @@ airflow-scheduler.out
 airflow/logs/
 challenge_dag.py.log
 airflow.db
+airflow-webserver.err
+*.pid

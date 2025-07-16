@@ -8,3 +8,5 @@ lab/
 airflow-scheduler.log
 airflow-scheduler.out
 airflow/logs/
+challenge_dag.py.log
+airflow.db

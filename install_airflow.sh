@@ -30,8 +30,8 @@ airflow info
 
 # Give airflow enough time to finish writing it's config files with sleep 5
 sleep 5
-echo "Setting value of ${BRed}load_examples${NC} in airflow.cfg to ${BPurple}True${NC}"
-sed -i -e '/load_examples =/ s/= .*/= True/' ${AIRFLOW_HOME}/airflow.cfg
+echo "Setting value of ${BRed}load_examples${NC} in airflow.cfg to ${BPurple}False${NC}"
+sed -i -e '/load_examples =/ s/= .*/= False/' ${AIRFLOW_HOME}/airflow.cfg
 echo "Setting value of ${BRed}dag_dir_list_interval${NC} in airflow.cfg to ${BPurple}2${NC}"
 sed -i -e '/dag_dir_list_interval =/ s/= .*/= 2/' ${AIRFLOW_HOME}/airflow.cfg
 echo "Setting value of ${BRed}worker_refresh_batch_size${NC} in airflow.cfg to ${BPurple}0${NC}"

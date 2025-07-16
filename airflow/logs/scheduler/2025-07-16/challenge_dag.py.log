@@ -373,3 +373,52 @@ ModuleNotFoundError: No module named 'pandas'
 [2025-07-16T11:27:54.298+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:27:54.298+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2025-07-16T11:27:54.318+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:27:54.318+0000] {dag.py:3504} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
 [2025-07-16T11:27:54.336+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py took 0.303 seconds
+[2025-07-16T11:28:24.551+0000] {processor.py:157} INFO - Started process (PID=15551) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:28:24.552+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py for tasks to queue
+[2025-07-16T11:28:24.552+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:28:24.552+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:28:24.791+0000] {processor.py:836} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:28:24.811+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:28:24.811+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-16T11:28:24.825+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:28:24.825+0000] {dag.py:3504} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2025-07-16T11:28:24.840+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py took 0.291 seconds
+[2025-07-16T11:28:54.961+0000] {processor.py:157} INFO - Started process (PID=15771) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:28:54.962+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py for tasks to queue
+[2025-07-16T11:28:54.963+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:28:54.962+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:28:55.204+0000] {processor.py:836} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:28:55.221+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:28:55.221+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-16T11:28:55.235+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:28:55.235+0000] {dag.py:3504} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2025-07-16T11:28:55.249+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py took 0.291 seconds
+[2025-07-16T11:29:25.372+0000] {processor.py:157} INFO - Started process (PID=15981) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:29:25.373+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py for tasks to queue
+[2025-07-16T11:29:25.374+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:29:25.374+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:29:25.678+0000] {processor.py:836} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:29:25.697+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:29:25.697+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-16T11:29:25.714+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:29:25.714+0000] {dag.py:3504} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2025-07-16T11:29:25.729+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py took 0.359 seconds
+[2025-07-16T11:29:55.890+0000] {processor.py:157} INFO - Started process (PID=16195) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:29:55.891+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py for tasks to queue
+[2025-07-16T11:29:55.892+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:29:55.892+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:29:56.146+0000] {processor.py:836} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:29:56.164+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:29:56.164+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-16T11:29:56.178+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:29:56.178+0000] {dag.py:3504} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2025-07-16T11:29:56.193+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py took 0.305 seconds
+[2025-07-16T11:30:26.393+0000] {processor.py:157} INFO - Started process (PID=16448) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:30:26.394+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py for tasks to queue
+[2025-07-16T11:30:26.395+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:30:26.395+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:30:26.643+0000] {processor.py:836} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:30:26.660+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:30:26.660+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-16T11:30:26.674+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:30:26.673+0000] {dag.py:3504} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2025-07-16T11:30:26.688+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py took 0.298 seconds
+[2025-07-16T11:30:56.804+0000] {processor.py:157} INFO - Started process (PID=16648) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:30:56.805+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py for tasks to queue
+[2025-07-16T11:30:56.806+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:30:56.806+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:30:57.071+0000] {processor.py:836} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:30:57.089+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:30:57.089+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-16T11:30:57.103+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:30:57.103+0000] {dag.py:3504} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2025-07-16T11:30:57.121+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py took 0.321 seconds
+[2025-07-16T11:31:27.311+0000] {processor.py:157} INFO - Started process (PID=16830) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:31:27.311+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py for tasks to queue
+[2025-07-16T11:31:27.312+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:31:27.312+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:31:27.559+0000] {processor.py:836} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py
+[2025-07-16T11:31:27.575+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:31:27.575+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-16T11:31:27.589+0000] {logging_mixin.py:150} INFO - [2025-07-16T11:31:27.589+0000] {dag.py:3504} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2025-07-16T11:31:27.603+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py took 0.295 seconds
